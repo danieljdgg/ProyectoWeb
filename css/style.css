@@ -1,6 +1,6 @@
 .fondo-home{
     background: url(../Img/Dummys/fondo-nubes.svg);
-    background-size: cover;
+    background-size: auto;
     height: 100vh;
 }
 
@@ -62,4 +62,12 @@
     color: white;
     transition-property: background-color;
     transition-duration: 0.5s;
+}
+
+.mitadpabajo {
+    margin-top: 30vh;
+}
+
+color-espejo{
+    color: #23ebeb;
 }
