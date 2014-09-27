@@ -1,0 +1,65 @@
+.fondo-home{
+    background: url(../Img/Dummys/fondo-nubes.svg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.bloque-aboutus {
+    font-family: 'Oswald', sans-serif;
+}
+.borde-gris {
+    border: #666666 1px solid;
+}
+
+.bordes-redondeados {
+    border-radius: 3px;
+}
+
+.service-box-thumb {
+    margin-bottom: 35px;
+}
+
+.texto-bloque {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sin-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.tamano-img-bloque {
+    width: 100%;
+}
+
+.btn-default {
+    margin-bottom: 20px;
+}
+
+.espaciado-lados {
+    width: 99.5%;
+}
+
+.bloque-estadisticas {
+    height: 300px;
+}
+
+.fondo-estadisticas {
+    background: url(../Img/Dummys/fondo-arboles.jpg);
+}
+
+.btn-nuevo {
+    border: 1px solid #19ADCB;
+    margin-bottom: 20px;
+    color: #19ADCB;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.btn-nuevo:hover {
+    background-color: #19ADCB;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
