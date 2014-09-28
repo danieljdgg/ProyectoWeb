@@ -39,6 +39,8 @@
 
 .espaciado-lados {
     width: 99.5%;
+    margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 .bloque-estadisticas {
@@ -50,24 +52,72 @@
 }
 
 .btn-nuevo {
-    border: 1px solid #19ADCB;
+    border: 1px solid #19ACCA;
     margin-bottom: 20px;
-    color: #19ADCB;
+    color: #19ACCA;
     transition-property: background-color;
     transition-duration: 0.5s;
 }
 
 .btn-nuevo:hover {
-    background-color: #19ADCB;
+    background-color: #19ACCA;
     color: white;
     transition-property: background-color;
     transition-duration: 0.5s;
 }
 
 .mitadpabajo {
-    margin-top: 30vh;
+    margin-top: 50vh;
+    padding-right: 5%;
 }
 
 color-espejo{
-    color: #23ebeb;
+    color: #19ACCA;
+}
+
+.pocoabajo{
+    margin-top:5%;
+}
+
+.btn-homemas {
+    color: white;
+    background-color: #000000;
+  
+}
+.btn-homemas:hover {
+    margin-bottom: 20px;
+    color: white;
+    background-color: #666666;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.fondo-negro {
+    background-color: black;
+}
+
+.margen-menu-sup-inf{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.centrar-altura{
+    vertical-align: middle;
+}
+.centrar-menu{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tamano-celular{
+    width: 100%;
+}
+
+.btn-menu{
+    color: white;
+}
+
+.btn-menu:hover {
+    color:#19ACCA;
+    transition-property: color;
+    transition-duration: 0.5s;
 }
