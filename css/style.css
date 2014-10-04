@@ -1,7 +1,9 @@
+
 .fondo-home{
     background: url(../Img/Dummys/fondo-nubes.svg);
     background-size: auto;
     height: 100vh;
+    z-index: -1;
 }
 
 .bloque-aboutus {
@@ -91,8 +93,14 @@ color-espejo{
     transition-property: background-color;
     transition-duration: 0.5s;
 }
+
 .fondo-negro {
-    background-color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%; 
+    background: black;
 }
 
 .margen-menu-sup-inf{
